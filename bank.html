@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+<div class="main-div grid gap-4 grid-cols-3 text-center mt-28 px-3">
+    <div class="item bg-lime-600 py-16 rounded-xl">
+        <h1 class="text-3xl">deopsit your money</h1>
+        <h3 class="text-xl">$ <span id="deposit">00</span></h3>
+    </div>
+    <div class="item bg-purple-400 py-16 rounded-xl">
+        <h1 class="text-3xl">Witdrow your money</h1>
+        <h3 class="text-xl">$<span id="widthrow">00</span></h3>
+    </div>
+    <div class="item bg-pink-500 py-16 rounded-xl">
+        <h1 class="text-3xl">Total money</h1>
+        <h3 class="text-xl">$ <span id="total">1200</span></h3>
+    </div>
+</div>
+
+<div class="main-div grid gap-4 grid-cols-2 text-center mt-5 px-3">
+    <div class="item bg-zinc-400 py-16 rounded-xl">
+        <input type="text" name="" id="taka_deposit" class="w-96 p-2" placeholder="add your money"> <br> <br>
+        <button id="taka_addbtn" class="py-3 px-6 bg-gray-50 rounded-xl">add money</button>
+    </div>
+
+    
+    <div class="item bg-zinc-400 py-16 rounded-xl">
+        <input type="text" name="" id="taka_widtrow" class="w-96 p-2" placeholder="widthrow money"><br> <br>
+        <button id="width_rowbtn" class="py-3 px-6 bg-gray-50 rounded-xl">widthrow</button>
+    </div>
+
+</div>
+
+
+
+<script src="./bank.js"></script>
+
+</body>
+</html>
